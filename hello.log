@@ -1,0 +1,7 @@
+2018-12-29 17:03:48.973  INFO 10280 --- [main] c.l.study.springboot.HelloApplication    : Starting HelloApplication on DESKTOP-69C1J88 with PID 10280 (D:\Workspace\springboot-study\hello\target\classes started by Administrator in D:\Workspace\springboot-study)
+2018-12-29 17:03:48.978 DEBUG 10280 --- [main] c.l.study.springboot.HelloApplication    : Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2018-12-29 17:03:48.979  INFO 10280 --- [main] c.l.study.springboot.HelloApplication    : The following profiles are active: custom,product
+2018-12-29 17:03:51.249  INFO 10280 --- [main] c.l.study.springboot.HelloApplication    : Started HelloApplication in 2.844 seconds (JVM running for 6.755)
+2018-12-29 17:03:51.250 DEBUG 10280 --- [main] c.l.study.springboot.HelloApplication    : MysqlProperties{host='product', user='product_user', mix='product/product_user'}
+2018-12-29 17:03:51.251 DEBUG 10280 --- [main] c.l.study.springboot.HelloApplication    : AppProperties(name=hello, version=1.0)
+2018-12-29 17:03:51.251 DEBUG 10280 --- [main] c.l.study.springboot.HelloApplication    : CustomProperties(name=product, age=12, other=other)
