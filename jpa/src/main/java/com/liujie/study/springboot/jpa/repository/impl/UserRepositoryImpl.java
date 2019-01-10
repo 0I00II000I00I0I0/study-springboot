@@ -17,7 +17,7 @@ import java.util.List;
 
 public class UserRepositoryImpl implements UserCustomRepository {
 
-    private static final Logger logger = LoggerFactory.getLogger(UserCustomRepository.class);
+    private static final Logger logger = LoggerFactory.getLogger(UserRepositoryImpl.class);
 
     @PersistenceContext
     private EntityManager em;

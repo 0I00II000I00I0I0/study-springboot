@@ -43,7 +43,7 @@ public class UserController extends BaseController {
     @Autowired
     private UserCustomRepository userCustomRepository;
 
-    @RequestMapping(value = "", method = RequestMethod.GET)
+    @RequestMapping(value = "", method = RequestMethod.POST)
     public Object add(@Valid UserAddForm userAdd, BindingResult result) {
         if (result.hasErrors()) {
             return Response.error(this.resultErrors(result));
