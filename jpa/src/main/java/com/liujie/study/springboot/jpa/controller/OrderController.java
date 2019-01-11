@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping
+@RequestMapping("/order")
 public class OrderController extends BaseController {
 
     private static final Logger logger = LoggerFactory.getLogger(OrderController.class);

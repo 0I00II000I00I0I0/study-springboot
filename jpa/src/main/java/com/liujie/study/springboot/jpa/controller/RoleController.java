@@ -1,5 +1,6 @@
 package com.liujie.study.springboot.jpa.controller;
 
+import com.liujie.study.springboot.jpa.core.BaseController;
 import com.liujie.study.springboot.jpa.core.Response;
 import com.liujie.study.springboot.jpa.entity.Role;
 import com.liujie.study.springboot.jpa.repository.RoleRepository;
@@ -15,7 +16,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/role")
-public class RoleController {
+public class RoleController extends BaseController {
 
     private static final Logger logger = LoggerFactory.getLogger(RoleController.class);
 
